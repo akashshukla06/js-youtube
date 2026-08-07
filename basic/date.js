@@ -1,0 +1,10 @@
+const date=new Date();
+console.log(date.toString());
+console.log(date.toDateString());
+console.log(date.toTimeString());
+console.log(date.toLocaleString());
+console.log(date.toLocaleDateString());
+console.log(date.toLocaleTimeString());
+let date1=new Date(2020, 11, 24, 10, 33, 30, 0);
+console.log(date1.toString());
+console.log(date1.toDateString());
