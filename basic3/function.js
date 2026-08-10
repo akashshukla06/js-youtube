@@ -33,3 +33,33 @@ function login(username){
 }
 
 console.log(login());
+function cal(...num1){
+    
+   return num1;
+}
+
+console.log(cal(2,3,4));
+
+//funstion with object
+const user={
+    name:"akash",
+    price:38
+}
+function handel(anyobject){
+    console.log(`my name is ${anyobject.name} and i buy a thing which is ${anyobject.price}`);
+    
+}
+ //handel(user)
+ handel({
+    name:"akash",
+    price:56
+ })
+
+ //function with array
+ const myarray=[2,4,5]
+ function second(value){
+    return value[1]
+ }
+ //console.log(second(myarray));
+ console.log(second([2,4,5]))
+ 
